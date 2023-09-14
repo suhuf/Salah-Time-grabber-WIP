@@ -30,14 +30,9 @@ class Gui:
 
         self.root.mainloop()
 
-
-
-
-
     def api_call(self):
 
-        
-
+    
         global entry
         z = 20874
         c = 'US'
@@ -84,17 +79,10 @@ class Gui:
         + "Maghrib Time: " + str(t_maghrib) +
         "Isha Time: " + str(t_isha) )
         
-
-
         pass
 
-    
-    
     def sc(self, event):
         
         pass
 
 Gui()
-
-
-
