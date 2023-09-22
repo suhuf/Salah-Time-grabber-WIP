@@ -10,8 +10,6 @@ import tkinter.simpledialog as sd
 
 url = 'http://www.islamicfinder.us/index.php/api/prayer_times'
 
-
-
 def on_entry_click(event):
    if textbox.get() == "Enter your zipcode":
       textbox.delete(0, tk.END)
@@ -22,21 +20,8 @@ def on_focus_out(event):
       textbox.insert(0, "Enter your zipcode")
       textbox.configure(foreground="gray")
 
-
-
-def user_info():
-    zipcode = sd.askstring("Provide zipcode")
-    
-    
-
-def testing():
-
-    dragon = textbox.get()
-    print(dragon)
-
 def api_call():
-
-    
+   
     global entry
 
     textbox.get()
@@ -87,11 +72,7 @@ def api_call():
     "Isha Time: " + str(t_isha) )
         
     pass
-
-def sc():
-        
-    pass
-
+   
 root = tk.Tk()
 
 mystr = StringVar()
@@ -110,15 +91,10 @@ textbox.bind("<FocusOut>", on_focus_out)
 
 textbox.pack(padx=30, pady=30)
 
-
-
-
 textbox.get
 
 button = tk.Button(root, text="Send", font=('Arial', 18), command= api_call)
 
 button.pack(padx=10, pady=10)
-
-
 
 root.mainloop()
