@@ -21,7 +21,7 @@ Now adding arduino display (for practice with embedding python with arduino IDE)
 
 Video:
 
-https://github.com/suhuf/Salah-Time-grabber-WIP/assets/105312929/a1853b7a-a1dd-4904-a203-cecbcbbb7f3f
+
 
 
 Add another input field for country or automatically add country based on zipcode
