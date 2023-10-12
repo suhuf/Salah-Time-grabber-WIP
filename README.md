@@ -17,10 +17,11 @@ Requests from endpoint and then prints response with some cleaning ✅
 
 **Works in progress:**
 
-Now adding arduino display (for practice with embedding python with arduino IDE):
+Now adding Arduino display (for practice with embedding python with arduino IDE):
 
 Video:
 
+https://github.com/suhuf/Salah-Time-grabber-WIP/assets/105312929/140669eb-bbfa-44ae-ace9-39d02ef3228f
 
 
 
