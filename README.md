@@ -17,7 +17,7 @@ Requests from endpoint and then prints response with some cleaning ✅
 
 **Works in progress:**
 
-Now adding Arduino display (for practice with embedding python with arduino IDE) plan on adding times from python script into "Arduino IDE":
+Now adding Arduino display (for practice with embedding python into Arduino IDE) plan on adding times from python script into "Arduino IDE":
 
 Video:
 
