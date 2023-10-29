@@ -1,5 +1,8 @@
 #include <LiquidCrystal.h>
 
+// Script is incomplete and timing is way off due to debugging serial write/read issues
+// This is mostly for safe keeping
+
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 int reply;
