@@ -22,7 +22,7 @@ if c == "USA" or "UnitedStates" or "America":
 
 
 
-ip = {'user_ip': '73.133.80.20'}
+
 
 a = requests.post(url, data={'zipcode': z, 'country': c })
 
