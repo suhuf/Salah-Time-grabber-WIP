@@ -20,7 +20,7 @@ void loop() {
 String t_Fajr;
 
 if (Serial.available() > 0){
-String t_Fajr = Serial.readStringUntil();
+String t_Fajr = Serial.readStringUntil('fend');
 Serial.println(t_Fajr);
 
 Serial.print("Data is in: ");
